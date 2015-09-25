@@ -1,0 +1,179 @@
+html {
+  background-image: url("../Tic Tac Toe AI/backgroundimg.jpg");
+  background-size: cover;
+  height: 100%;
+}
+
+body {
+  background-color: transparent;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Brush Script MT";
+  font-size: 62px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.gameselection{
+  width: 400px;
+  height: 300px;
+  border: 1px solid white;
+  border-radius: 25px;
+  background-color: darkgrey;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
+  margin: auto;
+  margin-top: 120px;
+  text-align: center;
+  font-family: "Papyrus";
+
+  /*visibility: hidden;*/
+}
+
+#opponent {
+  margin-top: 30px;
+}
+
+#twoplayer {
+  margin-top: 20px;
+  margin-right: 40px;
+}
+
+#computer {
+  margin-top: 20px;
+}
+
+#firstplayer {
+  display: block;
+  text-align: center;
+  margin: auto;
+  margin-top: 50px;
+  visibility: hidden;
+
+}
+
+#secondplayer {
+  display: block;
+  text-align: center;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  visibility: hidden;
+}
+
+#playersubmit {
+  visibility: hidden;
+}
+
+.player1, .player2 {
+  display: inline-block;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 0px 10px;
+  width: 200px;
+  /*position: absolute;*/
+}
+
+h3 {
+  font-family: "Papyrus";
+  font-weight: bold;
+  font-size: 22px;
+  color: white;
+}
+
+h4 {
+  font-family: "Papyrus";
+  color: white;
+}
+
+h5 {
+  color: white;
+}
+
+.announcer {
+  margin-right: 120px;
+  margin-left: 120px;
+  width: 300px;
+  display: inline-block;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 0px 10px;
+  /*margin: auto;*/
+  text-align: center;
+
+}
+
+.playerarea {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.gameboard {
+  text-align: center;
+  display:inline-block;
+  width: 700px;
+  height: 400px;
+  margin: auto;
+}
+
+.grid {
+  width:338px;
+  height:311px;
+  margin: auto;
+  display: block;
+}
+
+.row1, .row2, .row3 {
+text-align: center;}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: lightgray;
+  display: inline-block;
+  border-radius: 5px;
+  /*margin: 4px 4px;*/
+}
+
+.square:hover {
+  cursor: pointer;
+}
+
+.x {
+  background-image: url("../Tic Tac Toe AI/x.png");
+  background-size: cover;
+}
+
+.o {
+  background-image: url("../Tic Tac Toe AI/o.jpg");
+  background-size: cover;
+}
+
+.disable {
+}
+
+.disable:hover {
+  cursor: default;
+}
+
+.button {
+  text-align: center;
+  margin-top: 10px;
+}
+
+#restart {
+  padding-left: 75px;
+  padding-right: 75px;
+  visibility: hidden;
+}
+
+#newplayers {
+  padding-left: 60px;
+  padding-right: 60px;
+  visibility: hidden;
+}

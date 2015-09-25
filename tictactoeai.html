@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="tictactoeai.css">
+  <script src="tictactoeai.js"></script>
+  <title>Tic Tac Toe</title>
+</head>
+<body>
+
+  <h1>Tic Tac Toe!!</h1>
+
+  <div class='gameselection'>
+    <h3 id="opponent">Choose your opponent!</h3>
+    <button id='twoplayer' class='btn btn-danger'>2 Player</button>
+    <button id='computer' class='btn btn-danger'>Computer</button>
+    <div class="playersform">
+      <form>
+        <input type="text" id="firstplayer" placeholder="Player 1">
+        <input type="text" id="secondplayer" placeholder="Player 2">
+        <input type="submit" id="playersubmit" class='btn btn-primary'>
+      </form>
+    </div>
+  </div>
+
+  <div class="playerarea">
+    <div class="player1">
+      <h3 id="player1">Player 1</h3>
+      <h5 id='player1wins'>Wins: 0</h5>
+    </div>
+    <div class="announcer">
+      <h4 id="announcer">Welcome</h4>
+    </div>
+    <div class='player2'>
+      <h3 id="player2">Player 2</h3>
+      <h5 id='player2wins'>Wins: 0</h5>
+    </div>
+  </div>
+
+  <div class='grid'>
+    <div class='row1'>
+      <div id='0' class='square'>
+      </div>
+      <div id='1' class='square'>
+      </div>
+      <div id='2' class='square'>
+      </div>
+    </div><!--row1-->
+
+    <div class='row2'>
+      <div id='3' class='square'>
+      </div>
+      <div id='4' class='square'>
+      </div>
+      <div id='5' class='square'>
+      </div>
+    </div><!--row2-->
+
+    <div class='row3'>
+      <div id='6' class='square'>
+      </div>
+      <div id='7' class='square'>
+      </div>
+      <div id='8' class='square'>
+      </div>
+    </div><!--row3-->
+  </div><!--grid-->
+  <div class="button">
+    <button id="restart" class="btn btn-success">Restart?</button>
+  </div>
+  <div class="button">
+    <button id="newplayers" class="btn btn-danger">New Players?</button>
+  </div>
+</body>
+</html>
