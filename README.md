@@ -1,3 +1,4 @@
 # TicTacToeAI
-TicTacTow /w AI
+TicTacTow /w AI. 
+
  AI still needs implementation. 
