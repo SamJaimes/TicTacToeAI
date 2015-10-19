@@ -1,5 +1,5 @@
 html {
-  background-image: url("../Tic Tac Toe AI/backgroundimg.jpg");
+  background-image: url("../TicTacToeAI/backgroundimg.jpg");
   background-size: cover;
   height: 100%;
 }
@@ -145,12 +145,12 @@ text-align: center;}
 }
 
 .x {
-  background-image: url("../Tic Tac Toe AI/x.png");
+  background-image: url("../TicTacToeAI/x.png");
   background-size: cover;
 }
 
 .o {
-  background-image: url("../Tic Tac Toe AI/o.jpg");
+  background-image: url("../TicTacToeAI/o.jpg");
   background-size: cover;
 }
 
